@@ -78,7 +78,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  line-height: 150%;
   background: #eef1f5;
   padding: 90px 0px 90px 0px;
 }
@@ -89,7 +88,7 @@ h3 {
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 38.4px */
+  line-height: 67%; /* 38.4px */
 }
 
 h4 {
@@ -116,6 +115,9 @@ section {
   margin: 0px 0px 20px 0px;
 }
 
+.head-profile .wrapper {
+  padding: 30px 30px 21px 30px;
+}
 .head-profile h3 {
   margin: 0px 0px 30px 0px;
 }
@@ -134,7 +136,7 @@ section {
 .head-profile ul li {
   position: relative;
   cursor: pointer;
-  line-height: 20px; /* 125% */
+  line-height: 32px; /* 125% */
 }
 .head-profile ul li.active {
   color: #4e6af3;
@@ -146,7 +148,7 @@ section {
   height: 4px;
   border-radius: var(--Corner_radius_m, 10px);
   background: #4e6af3;
-  bottom: -20px;
+  bottom: -10px;
   left: 0;
   z-index: 999;
 }
@@ -157,7 +159,7 @@ section {
   height: 4px;
   border-radius: var(--Corner_radius_m, 10px);
   background: var(--Stroke-Divider, #e1edfd);
-  bottom: -20px;
+  bottom: -10px;
   left: 0;
 }
 
@@ -257,10 +259,15 @@ section {
   font-weight: 500;
   line-height: 120%; /* 28.8px */
 }
-.info-profile .raiting {
-  margin: 10px 0px 0px 0px;
+.info-profile .time-prf,
+.info-profile .id-prf {
   display: flex;
-  gap: 15px;
+  gap: 7px;
+}
+.info-profile .raiting {
+  margin: 7px 0px 0px 0px;
+  display: flex;
+  gap: 14px;
   align-items: center;
 }
 .info-profile .icon {
@@ -275,7 +282,7 @@ section {
 .info-profile .info-prf {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .info-profile .cart {
   position: relative;
@@ -285,7 +292,7 @@ section {
 .info-profile .cart .avatar {
   width: 190px;
   height: 190px;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
 }
 .info-profile .cart .avatar img {
@@ -299,14 +306,18 @@ section {
   top: 0;
 }
 
+.data-profile .wrapper {
+  padding: 21px 30px;
+}
 .data-profile ul {
   display: flex;
-  gap: 40px;
+  gap: 25px;
 }
 .data-profile ul li {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  max-width: 125px;
   color: var(--Text-Grey, #7786a5);
   font-size: 14px;
   font-style: normal;
@@ -325,20 +336,24 @@ section {
 .param-profile {
   padding: 0px 0px 90px 0px;
 }
+.param-profile h3 {
+  line-height: 116%;
+}
 .param-profile ul {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
 }
 .param-profile ul li {
+  line-height: 0;
   cursor: pointer;
-  padding: 7px 10px;
+  padding: 15px 10px;
   border-radius: 5px;
   border: 1px solid var(--Stroke-Divider, #e1edfd);
   background: var(--BG-White, #fff);
 }
 .param-profile .item {
-  padding: 30px 0px 20px 0px;
+  padding: 27px 0px 14px 0px;
   border-bottom: 1px solid var(--Stroke-Divider, #e1edfd);
   display: flex;
   gap: 10px;
@@ -356,16 +371,17 @@ section {
   line-height: 150%; /* 24px */
 }
 .param-profile .subtitle {
+  font-size: 14px;
   position: absolute;
   top: 88px;
   left: 0;
   width: 100%;
-  padding: 5px 30px;
+  padding: 7px 30px;
   background: var(--Stroke-Divider_form, #f1f7ff);
 }
 .param-profile .wrapper {
   position: relative;
 }
 .param-profile h3 {
-  margin: 0px 0px 60px 0px;
+  margin: 0px 0px 54px 0px;
 }/*# sourceMappingURL=style.css.map */
