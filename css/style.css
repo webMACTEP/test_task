@@ -353,7 +353,7 @@ section {
   background: var(--BG-White, #fff);
 }
 .param-profile .item {
-  padding: 27px 0px 14px 0px;
+  padding: 28px 0px 14px 0px;
   border-bottom: 1px solid var(--Stroke-Divider, #e1edfd);
   display: flex;
   gap: 10px;
