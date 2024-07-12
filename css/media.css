@@ -1,62 +1,63 @@
-.wmshadows {
-  border-radius: 16px;
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
-  background: rgba(255, 255, 255, 0.5);
-}
-
-body .is-layout-flex.wmflex {
-  justify-content: center;
-}
-
-.wmsubtitle {
-  max-width: 1000px;
-  margin: 0px auto;
-}
-
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  display: none !important;
-  content: "" !important;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-size: 0 !important;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  width: 60px;
-  height: 60px;
-}
-
-.is-style-arrow-icon-details ::marker {
-  color: #3854dc;
-  font-size: 40px;
-}
-
-.swiper-container {
-  position: relative !important;
-  overflow: hidden !important;
-}
-.swiper-container a,
-.swiper-container h2 {
-  font-size: 30px !important;
-  font-weight: 700 !important;
-}
-
-@media (max-width: 1021px) {
-  .dtarrow {
-    display: none !important;
+@media (max-width: 940px) {
+  .container {
+    margin: 0px 10px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .data-profile {
+    display: none;
   }
 }
-@media (max-width: 781px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    top: 80% !important;
+@media (max-width: 767px) {
+  .info-profile .cart .avatar {
+    border-radius: 20px;
   }
-  .wmdnone,
-  .dtarrow {
-    display: none !important;
+  .head-profile h3 {
+    margin: 0px 0px 20px 0px;
+  }
+  .wrapper {
+    padding: 20px 20px 30px 20px;
+  }
+}
+@media (max-width: 640px) {
+  .info-profile .cart .avatar img {
+    width: 100%;
+  }
+  .param-profile .subtitle {
+    top: 65px;
+  }
+  .param-profile h3 {
+    margin: 0px 0px 70px 0px;
+  }
+  .param-profile .item {
+    flex-direction: column;
+    padding: 15px 0px;
+  }
+  .info-profile .cart .avatar {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .info-profile .cart .id-info {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .info-profile .cart {
+    flex-direction: column;
+  }
+  .head-profile ul {
+    min-width: 400px;
+  }
+  .head-profile .container .wrapper {
+    overflow: hidden;
+  }
+  .container {
+    margin: 0px;
+  }
+  h3 {
+    font-size: 22px;
   }
 }/*# sourceMappingURL=media.css.map */
